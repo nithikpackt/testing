@@ -4,8 +4,7 @@
 
 This is the code repository for [Hands-On Python for DevOps](https://www.packtpub.com/product/hands-on-python-for-devops/9781835081167?utm_source=github&utm_medium=repository&utm_campaign=9781835081167), published by Packt.
 
-**Leverage Python's native libraries to streamline your workflow and save time with automation
-**
+**Leverage Python's native libraries to streamline your workflow and save time with automation**
 
 ## What is this book about?
 Unleash the power of Python in DevOps with this comprehensive guide to integrating Python into DevOps workflows to automate tasks, enhance CI/CD pipelines, and delve into MLOps and DataOps to streamline operations and boost efficiency.
