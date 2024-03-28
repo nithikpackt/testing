@@ -55,5 +55,5 @@ With the following software and hardware list you can run all code files present
 With 11 years of experience, Rajneesh Gupta, a seasoned cybersecurity expert, specializes in open-source security, security monitoring, cloud security, security audit, and red-teaming exercises. Prior to this, he worked with Hewlett-Packard as security lead. A CISA-certified professional, he has played a pivotal role in building and automating Security Operation Centers (SOCs) for hundreds of businesses globally, conducting security audits, and guiding on frameworks and compliances.
 Rajneesh is also passionate about mentoring, having helped numerous individuals kickstart their careers in cybersecurity. He is also the author of Hands-On with Cybersecurity and Blockchain, which is popular across both security and blockchain communities. Outside of work, Rajneesh enjoys spending time in hill stations and playing volleyball.
 
-## Other books by the authors
+## Other books by the author
 * [Hands-On Cybersecurity with Blockchain](https://www.packtpub.com/product/hands-on-cybersecurity-with-blockchain/9781788990189?utm_source=github&utm_medium=repository&utm_campaign=9781788990189)
