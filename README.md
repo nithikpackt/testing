@@ -49,7 +49,6 @@ With the following software and hardware list you can run all code files present
 | Skaffold installed | Linux (Debian, Ubuntu, Red Hat/Fedora/CentOS), macOS, |
 | Cloud Code installed | You need a supported IDE. Examples in the book are based mainly |
 
-We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it]().
 
 ### Related products
 * Google Cloud for Developers [[Packt]](https://www.packtpub.com/product/google-cloud-for-developers/9781837630745?utm_source=github&utm_medium=repository&utm_campaign=9781837630745) [[Amazon]](https://www.amazon.com/dp/1837630747)
