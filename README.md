@@ -1,4 +1,4 @@
-# ecurity Monitoring with Wazuh
+# Security Monitoring with Wazuh
 
 <a href="https://www.packtpub.com/product/security-monitoring-with-wazuh/9781837632152?utm_source=github&utm_medium=repository&utm_campaign=9781837632152"><img src="https://content.packt.com/B19549/cover_image_small.jpg" alt="" height="256px" align="right"></a>
 
