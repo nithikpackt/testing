@@ -28,8 +28,8 @@ All of the code is organized into folders. For example, Chapter02.
 The code will look like the following:
 ```
 response = cloudwatch_client.put_dashboard(
-DashboardName=dashboard_name,
-DashboardBody=json.dumps(dashboard_body)
+    DashboardName=dashboard_name,
+    DashboardBody=json.dumps(dashboard_body)
 )
 ```
 
