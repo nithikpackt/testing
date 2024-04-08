@@ -50,7 +50,7 @@ With the following software and hardware list you can run all code files present
 
 * The Self-Taught Cloud Computing Engineer [[Packt]](https://www.packtpub.com/product/the-self-taught-cloud-computing-engineer/9781805123705?utm_source=github&utm_medium=repository&utm_campaign=9781805123705) [[Amazon]](https://www.amazon.com/dp/180512370X)
 
-## Get to Know the Author
+## Get to Know the Authors
 **Stefano Tempesta**
 is a technologist working at the crossroad of Web2 and Web3, to make the Internet a more accessible, meaningful, and inclusive space. Stefano is an ambassador of the use of AI and blockchain technology for good purposes. A former advisor to the Department of Industry and Science, Australia, on the National Blockchain Roadmap, he is co-founder of Aetlas, a decentralised climate action and sustainability network with a mission to source Verified Carbon Units for liquidity and carbon asset monetisation.
 Stefano is a lecturer at RMIT University on courses about AI and blockchain technology, and volunteers as Leader for Scouts Queensland, Australia.
