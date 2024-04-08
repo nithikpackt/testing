@@ -44,7 +44,6 @@ With the following software and hardware list you can run all code files present
 | 1-16 | A subscription to each of the cloud services utilized in the book – AWS, | Any |
 | 1-16 | A development tool of preference for smart contracts and other scripts. | Any |
 
-We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it]().
 
 ### Related products
 * Containers for Developers Handbook [[Packt]](https://www.packtpub.com/product/containers-for-developers-handbook/9781805127987?utm_source=github&utm_medium=repository&utm_campaign=9781805127987) [[Amazon]](https://www.amazon.com/dp/1805127985)
