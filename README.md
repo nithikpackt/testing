@@ -46,7 +46,6 @@ With the following software and hardware list you can run all code files present
 | Ansible 2.16+ |  
 | Nautobot 2.1+ |  
 
-We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it]().
 
 ### Related products
 * Pentesting Active Directory and Windows-based Infrastructure [[Packt]](https://www.packtpub.com/product/pentesting-active-directory-and-windows-based-infrastructure/9781804611364?utm_source=github&utm_medium=repository&utm_campaign=9781804611364) [[Amazon]](https://www.amazon.com/dp/1804611360)
