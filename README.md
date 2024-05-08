@@ -1,6 +1,6 @@
 # Network Automation with Nautobot
 
-<a href="https://www.packtpub.com/product/network-automation-with-nautobot/9781837637867?utm_source=github&utm_medium=repository&utm_campaign=9781837637867"><img src="" alt="" height="256px" align="right"></a>
+<a href="https://www.packtpub.com/product/network-automation-with-nautobot/9781837637867?utm_source=github&utm_medium=repository&utm_campaign=9781837637867"><img src="https://content.packt.com/_/image/original/B19544/cover_image_large.jpg" alt="" height="256px" align="right"></a>
 
 This is the code repository for [Network Automation with Nautobot](https://www.packtpub.com/product/network-automation-with-nautobot/9781837637867?utm_source=github&utm_medium=repository&utm_campaign=9781837637867), published by Packt.
 
