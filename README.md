@@ -23,7 +23,7 @@ If you feel this book is for you, get your [copy](https://www.amazon.com/dp/1837
 alt="https://www.packtpub.com/" border="5" /></a>
 
 ## Instructions and Navigations
-All of the code is organized into folders. For example, Chapter02.
+All of the code is organized into folders. For example, chapter-03.
 
 The code will look like the following:
 ```
@@ -53,7 +53,7 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 
 * Security Monitoring with Wazuh [[Packt]](https://www.packtpub.com/product/security-monitoring-with-wazuh/9781837632152?utm_source=github&utm_medium=repository&utm_campaign=9781837632152) [[Amazon]](https://www.amazon.com/dp/1837632154)
 
-## Get to Know the Author
+## Get to Know the Authors
 **Jason Edelman**
 is the Founder and CTO at Network to Code (NTC). Prior to NTC, Jason spent a career in networking developing and architecting network solutions with his last role leading efforts around SDN and programmability. Jason is co-author of O’Reilly’s Network Programmability & Automation book. He is a former CCIE and has a B.E. in Computer Engineering from Stevens Institute of Technology. He can be found on X as @jedelman8.
 
