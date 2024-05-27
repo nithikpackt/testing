@@ -1,6 +1,6 @@
 # NGINX HTTP Server
 
-<a href="https://www.packtpub.com/product/nginx-http-server-fifth-edition/9781835469873?utm_source=github&utm_medium=repository&utm_campaign=9781835469873"><img src="" alt="" height="256px" align="right"></a>
+<a href="https://www.packtpub.com/product/nginx-http-server-fifth-edition/9781835469873?utm_source=github&utm_medium=repository&utm_campaign=9781835469873"><img src="https://content.packt.com/_/image/original/B21787/cover_image_large.jpg" alt="" height="256px" align="right"></a>
 
 This is the code repository for [NGINX HTTP Server](https://www.packtpub.com/product/nginx-http-server-fifth-edition/9781835469873?utm_source=github&utm_medium=repository&utm_campaign=9781835469873), published by Packt.
 
