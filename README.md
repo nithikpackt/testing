@@ -1,23 +1,25 @@
-# NGINX HTTP Server
+# Mastering Terraform
 
-<a href="https://www.packtpub.com/product/nginx-http-server-fifth-edition/9781835469873?utm_source=github&utm_medium=repository&utm_campaign=9781835469873"><img src="https://content.packt.com/_/image/original/B21787/cover_image_large.jpg" alt="" height="256px" align="right"></a>
+<a href="https://www.packtpub.com/en-us/product/mastering-terraform-9781835086018?utm_source=github&utm_medium=repository&utm_campaign=9781786461629"><img src="https://content.packt.com/_/image/xxlarge/B21183/cover_image_large.jpg" alt="" height="256px" align="right"></a>
 
-This is the code repository for [NGINX HTTP Server](https://www.packtpub.com/product/nginx-http-server-fifth-edition/9781835469873?utm_source=github&utm_medium=repository&utm_campaign=9781835469873), published by Packt.
+This is the code repository for [Mastering Terraform](https://www.packtpub.com/en-us/product/mastering-terraform-9781835086018?utm_source=github&utm_medium=repository&utm_campaign=9781786461629), published by Packt.
 
-**Harness the power of NGINX with a series of detailed tutorials and real-life examples**
+**A practical guide to building and deploying infrastructure on AWS, Azure, and Google Cloud**
 
 ## What is this book about?
-Explore the power of NGINX with this guide covering an array of essential practical topics, including securing your infrastructure with automatic TLS certificates, placing NGINX in front of your existing applications, and much more.
+This book is an exhaustive, practical guide that details the use of Terraform to enable you to efficiently design, provision, and deliver cloud-native solutions on AWS, Azure, and Google Cloud platforms from scratch to production.
 
 This book covers the following exciting features:
-* Install and configure a basic setup for NGINX and test it out
-* Discover the core functionality of the HTTP module as well as third-party modules
-* Understand how to set up NGINX to work with PHP, Python, and other applications
-* Optimize your architecture with threads or load balancing
-* Configure NGINX with orchestration and work in a Docker environment
-* Identify errors in configuration and grasp basic troubleshooting techniques
+* Explore Terraform architecture and configurations in depth
+* Integrate Packer with Terraform for VM-based solutions
+* Containerize apps with Docker and Kubernetes
+* Explore GitOps and CI/CD deployment patterns
+* Transform existing applications into serverless architectures
+* Migrate and modernize legacy apps for the cloud
+* Implement Terraform on AWS, Azure, and GCP
+* Use Terraform with teams of varying size and responsibility
 
-If you feel this book is for you, get your [copy](https://www.amazon.com/dp/1835469876) today!
+If you feel this book is for you, get your [copy](https://www.amazon.com/dp/1835086012) today!
 
 <a href="https://www.packtpub.com/?utm_source=github&utm_medium=banner&utm_campaign=GitHubBanner"><img src="https://raw.githubusercontent.com/PacktPublishing/GitHub/master/GitHub.png" 
 alt="https://www.packtpub.com/" border="5" /></a>
@@ -27,36 +29,33 @@ All of the code is organized into folders. For example, Chapter02.
 
 The code will look like the following:
 ```
-[nginx]
-name=nginx repo
-baseurl=http://nginx.org/packages/OS/OSRELEASE/$basearch/
-gpgcheck=0
-enabled=1
+app_settings = {
+  "SCM_DO_BUILD_DURING_DEPLOYMENT" = "false"
+  "WEBSITE_RUN_FROM_PACKAGE" = "1"
 ```
 
 **Following is what you need for this book:**
-This book is for beginners and web administrators looking to master the powerful and secure NGINX HTTP server. Whether you want to replace your existing web server software or integrate a new tool to collaborate with applications that are already up and running, this book will help you achieve your goals. To get started, all you need is access to a Linux server and a basic understanding of web server concepts.
+This book is for Devops engineers, cloud engineers, platform engineers, infrastructure engineers, site reliability engineers, developers, and cloud architects who want to utilize Terraform to automate their cloud infrastructures and streamline software delivery. Prior knowledge of cloud architecture, infrastructure, and platforms, as well as Terraform basics, will help you understand the topics present in this book.
 
-With the following software and hardware list you can run all code files present in the book (chapter08).
+With the following software and hardware list you can run all code files present in the book (Chapter 1-18).
 ### Software and Hardware List
 | Chapter | Software required | OS required |
 | -------- | ------------------------------------ | ----------------------------------- |
-| 1-11 | NGINX | Linux (preferably Debian, Ubuntu, Fedora, or RHEL) |
-
+| 1-18 | Terraform v1.8.4 | Windows, Mac OS X, and Linux (Any) |
+| 7-15 | Packer v1.10.3 | Windows, Mac OS X, and Linux (Any) |
+| 1-18 | Kubectl v1.26.2 | Windows, Mac OS X, and Linux (Any) |
+| 1-18 | Helm v3.13.2 | Windows, Mac OS X, and Linux (Any) |
+| 1-18 | .NET 6 | Windows, Mac OS X, and Linux (Any) |
+| 7-9 | AWS CLI v2.15.58 | Windows, Mac OS X, and Linux (Any) |
+| 10-12 | Azure CLI v2.58.0 | Windows, Mac OS X, and Linux (Any) |
+| 13-15 | Google Cloud SDK v469.0.0 | Windows, Mac OS X, and Linux (Any) |
 
 
 ### Related products
-* Pentesting Active Directory and Windows-based Infrastructure [[Packt]](https://www.packtpub.com/product/pentesting-active-directory-and-windows-based-infrastructure/9781804611364?utm_source=github&utm_medium=repository&utm_campaign=9781804611364) [[Amazon]](https://www.amazon.com/dp/1804611360)
+* Architecting AWS with Terraform [[Packt]](https://www.packtpub.com/en-us/product/architecting-aws-with-terraform-9781803248561?utm_source=github&utm_medium=repository&utm_campaign=) [[Amazon]](https://www.amazon.com/dp/1803248564)
 
-* Security Monitoring with Wazuh [[Packt]](https://www.packtpub.com/product/security-monitoring-with-wazuh/9781837632152?utm_source=github&utm_medium=repository&utm_campaign=9781837632152) [[Amazon]](https://www.amazon.com/dp/1837632154)
+* Terraform Cookbook [[Packt]](https://www.packtpub.com/en-us/product/terraform-cookbook-9781804616420?utm_source=github&utm_medium=repository&utm_campaign=) [[Amazon]](https://www.amazon.com/dp/1804616427)
 
 ## Get to Know the Author
-**Gabriel Ouiran**
-is a systems administrator at Eduka Software, Singapore, specializing in IT infrastructure with a strong focus on AI and cloud technologies. Gabriel is also a passionate tech enthusiast and a free and open source software contributor. He has over 10 years of experience working in IT for different companies. Gabriel now applies this expertise to enhance educational software solutions.
-
-**Clement Nedelcu**
-was born in France and studied at UK, French, and Chinese universities. After teaching computer science, programming, and systems administration at several eastern Chinese universities, he worked as a technology consultant in France, specialized in the web and .NET software development as well as Linux server administration. Since 2005, he has also been administering a major network of websites in his spare time, which allowed him to discover Nginx. Clement now works as CTO. for a Singapore-based company developing management software for schools.
-
-**Martin Fjordvald**
-is a 35-year-old Danish entrepreneur who started his company straight out of high school. Backed by a popular website, he became a jack of all trades having to deal with the business, programming, and marketing side of his business. The popularity of his website grew and so did the performance requirements of his code and servers.
-He got involved with the community project to document Nginx early on and has written several blog posts and wiki articles detailing how Nginx works.
+**Mark Tinderholt**
+has over two decades of experience as a software developer and architect. With a solid foundation in application development and a pioneering role in cloud technology adoption, he has led diverse teams across numerous industry verticals on multiple cloud platforms. An as expert, Mark embraced Terraform early on to empower his development teams with greater control over their application environments. He is the organizer of his local HashiCorp User Group (HUG) and a HashiCorp Ambassador. He is also the host of a popular YouTube channel called the “Azure Terraformer”.
