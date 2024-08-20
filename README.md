@@ -46,7 +46,60 @@ The code will look like the following:
 **Following is what you need for this book:**
 This book is for security engineers, particularly those focused on application security, as well as security analysts, application owners, web developers, pentesters, and all curious enthusiasts who want to learn about APIs, effective testing methods for their robustness, and how to protect them against cyber attacks. Basic knowledge of web development, familiarity with API concepts, and a foundational understanding of cybersecurity principles will help you get started with this book.
 
-With the following software and hardware list you can run all code files present in the book (Chapter 4-9).
+With the following software and hardware list you can run all code files present in the book (Chapter 4-9). This is the directory structure:
+```bash
+.
+├── LICENSE
+├── README.md
+└── chapters
+    ├── chapter04
+    │   ├── bypass_access_control_ex1.py
+    │   ├── bypass_access_control_ex2.py
+    │   ├── bypass_access_control_ex3.py
+    │   ├── common_credentials.sh
+    │   ├── fixed_bfla.go
+    │   ├── fixed_bola.py
+    │   ├── oauth_initial_code.py
+    │   ├── oauth_scopes.py
+    │   ├── session.py
+    │   ├── vulnerable_bfla.go
+    │   └── vulnerable_bola.py
+    ├── chapter05
+    │   ├── input_validation.java
+    │   ├── sanitize_html.java
+    │   ├── sanitize_query_parameters.py
+    │   └── validate_file_uploads.java
+    ├── chapter06
+    │   ├── fuzz_with_uploads.sh
+    │   ├── identify_error_codes.py
+    │   └── vulnerable_code_to_fuzz.py
+    ├── chapter07
+    │   ├── circumvent_rate_limit.py
+    │   ├── rate_limit_nginx.conf
+    │   └── scapy_dos.py
+    ├── chapter08
+    │   ├── api_sensitive_data.py
+    │   ├── generate_sensitive_data.sh
+    │   ├── jwt_with_flask_jwt.py
+    │   └── log_generator.sh
+    └── chapter09
+        ├── business_logic
+        │   └── api_business_logic.py
+        ├── credential_stuffing
+        │   ├── Dockerfile
+        │   ├── api_credential.py
+        │   ├── credentials.txt
+        │   └── requirements.txt
+        ├── data_scraping
+        │   ├── api_scraping.py
+        │   └── bruteforce_spider.py
+        └── parameter_tampering
+            ├── api_tampering.py
+            ├── manipulate_authorization.py
+            ├── manipulate_role.py
+            └── manipulate_transaction_status.py
+
+```
 ### Software and Hardware List
 | Chapter | Software required | OS required |
 | -------- | ------------------------------------ | ----------------------------------- |
