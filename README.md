@@ -1,3 +1,6 @@
+> [NOTE]
+> To download the utils folder containing the tools mentioned in chapter 4, you can download the file from here: 
+
 # Pentesting APIs
 
 <a href="https://www.packtpub.com/en-in/product/pentesting-apis-9781837633166"><img src="https://content.packt.com/_/image/xxlarge/B19657/cover_image_large.jpg" alt="no-image" height="256px" align="right"></a>
@@ -48,7 +51,6 @@ With the following software and hardware list you can run all code files present
 | Chapter | Software required | OS required |
 | -------- | ------------------------------------ | ----------------------------------- |
 | 1-10 | VirtualBox | Linux |
-|
 
 
 ### Related products
