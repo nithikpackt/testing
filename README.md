@@ -1,5 +1,5 @@
 > [!NOTE]
-> To download the utils folder containing the tools mentioned in chapter 4, you can download the file from [[here]](https://packt.link/gbz/9781837633166)
+> To download the utils folder containing the tools mentioned in chapter 4, you can download the file from here: [[Utils-folder]](https://packt.link/gbz/9781837633166)
 
 # Pentesting APIs
 
