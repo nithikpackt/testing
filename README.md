@@ -1,121 +1,80 @@
-> [!NOTE]
-> To download the utils folder containing the tools mentioned in chapter 4, you can download the file from here: [[Utils-folder]](https://packt.link/gbz/9781837633166)
+# Platform Engineering for Architects
 
-# Pentesting APIs
+<a href="https://www.packtpub.com/en-us/product/platform-engineering-for-architects-9781836203599?utm_source=github&utm_medium=repository&utm_campaign=9781786461629"><img src="https://content.packt.com/_/image/xxlarge/B31164/cover_image_large.jpg" alt="" height="256px" align="right"></a>
 
-<a href="https://www.packtpub.com/en-in/product/pentesting-apis-9781837633166"><img src="https://content.packt.com/_/image/xxlarge/B19657/cover_image_large.jpg" alt="no-image" height="256px" align="right"></a>
+This is the code repository for [Platform Engineering for Architects](https://www.packtpub.com/en-us/product/platform-engineering-for-architects-9781836203599?utm_source=github&utm_medium=repository&utm_campaign=9781786461629), published by Packt.
 
-This is the code repository for [Pentesting APIs](https://www.packtpub.com/en-in/product/pentesting-apis-9781837633166), published by Packt.
-
-**A practical guide to discovering, fingerprinting,and exploiting APIs**
+**Crafting modern platforms as a product**
 
 ## What is this book about?
-A comprehensive book that equips you with essential techniques to assess, exploit, and secure APIs against cyber threats.
+This book is for engineering professionals who want to advance their cloud native platform adoption by transitioning to IDPs with a product-centric platform approach. It emphasizes integrating platform strategy with the organization’s goals.
 
 This book covers the following exciting features:
-* Get an introduction to APIs and their relationship with security
-* Set up an effective pentesting lab for API intrusion
-* Conduct API reconnaissance and information gathering in the discovery phase
-* Execute basic attacks such as injection, exception handling, and DoS
-* Perform advanced attacks, including data exposure and business logic abuse
-* Benefit from expert security recommendations to protect APIs against attacks
+* Make informed decisions based on your organization’s platform needs
+* Identify missing platform capabilities and technical debt
+* Develop a critical user journey through your platform capabilities
+* Define the purpose, principles, and key performance indicators (KPIs) for your platform
+* Utilize relevant data points for making data-driven product decisions
+* Implement your own platform reference and target architectures
 
-If you feel this book is for you, get your [copy](https://www.amazon.com/Pentesting-APIs-discovering-fingerprinting-exploiting/dp/1837633169) today!
+If you feel this book is for you, get your [copy](https://www.amazon.com/dp/1836203594) today!
 
 <a href="https://www.packtpub.com/?utm_source=github&utm_medium=banner&utm_campaign=GitHubBanner"><img src="https://raw.githubusercontent.com/PacktPublishing/GitHub/master/GitHub.png" 
 alt="https://www.packtpub.com/" border="5" /></a>
 
 ## Instructions and Navigations
-All of the code is organized into folders. For example, chapters/chapter04.
+All of the code is organized into folders. For example, Chapter02.
 
 The code will look like the following:
 ```
-<env:Header>
-  <BA:BlockA xmlns:BA="http://mysoap.com"
-   env:role="http://mysoap.com/role/A" env:mustUnderstand="true">
-   ...
-  </BA:BlockA>
-  <BB:BlockB xmlns:BB="http://mysoap.com"
-   env:role="http://mysoap.com/role/B" env:relay="true">
-   ...
-  </BB:BlockB>
-</env:Header>
-
+apiVersion: apiextensions.k8s.io/v1beta1
+kind: CustomResourceDefinition
+metadata:
+  name: crontabs.stable.example.com
+spec:
+  group: stable.example.com
+  version: v1
+  scope: Namespaced
+  names:
+    plural: crontabs
+    singular: crontab
+    kind: CronTab
+    shortNames:
+    - ct
 ```
 
 **Following is what you need for this book:**
-This book is for security engineers, particularly those focused on application security, as well as security analysts, application owners, web developers, pentesters, and all curious enthusiasts who want to learn about APIs, effective testing methods for their robustness, and how to protect them against cyber attacks. Basic knowledge of web development, familiarity with API concepts, and a foundational understanding of cybersecurity principles will help you get started with this book.
+This book is for platform architects and solutions architects seeking to enhance their skills in designing and building a platform as a product. It also offers valuable insights for decision-makers, platform engineers, and DevOps professionals. While familiarity with cloud-native concepts, CI/CD, and Kubernetes is beneficial, the book builds on these topics to address self-service, cost management, and technical debt. It’s particularly suited to experts tackling the challenge of integrating diverse domains to create effective internal developer platforms with top-notch operational readiness.
 
-With the following software and hardware list you can run all code files present in the book (Chapter 4-9). This is the directory structure:
-```bash
-.
-├── LICENSE
-├── README.md
-└── chapters
-    ├── chapter04
-    │   ├── bypass_access_control_ex1.py
-    │   ├── bypass_access_control_ex2.py
-    │   ├── bypass_access_control_ex3.py
-    │   ├── common_credentials.sh
-    │   ├── fixed_bfla.go
-    │   ├── fixed_bola.py
-    │   ├── oauth_initial_code.py
-    │   ├── oauth_scopes.py
-    │   ├── session.py
-    │   ├── vulnerable_bfla.go
-    │   └── vulnerable_bola.py
-    ├── chapter05
-    │   ├── input_validation.java
-    │   ├── sanitize_html.java
-    │   ├── sanitize_query_parameters.py
-    │   └── validate_file_uploads.java
-    ├── chapter06
-    │   ├── fuzz_with_uploads.sh
-    │   ├── identify_error_codes.py
-    │   └── vulnerable_code_to_fuzz.py
-    ├── chapter07
-    │   ├── circumvent_rate_limit.py
-    │   ├── rate_limit_nginx.conf
-    │   └── scapy_dos.py
-    ├── chapter08
-    │   ├── api_sensitive_data.py
-    │   ├── generate_sensitive_data.sh
-    │   ├── jwt_with_flask_jwt.py
-    │   └── log_generator.sh
-    └── chapter09
-        ├── business_logic
-        │   └── api_business_logic.py
-        ├── credential_stuffing
-        │   ├── Dockerfile
-        │   ├── api_credential.py
-        │   ├── credentials.txt
-        │   └── requirements.txt
-        ├── data_scraping
-        │   ├── api_scraping.py
-        │   └── bruteforce_spider.py
-        └── parameter_tampering
-            ├── api_tampering.py
-            ├── manipulate_authorization.py
-            ├── manipulate_role.py
-            └── manipulate_transaction_status.py
-
-```
+With the following software and hardware list you can run all code files present in the book (Chapter 1-10).
 ### Software and Hardware List
-| Chapter | Software required | OS required |
-| -------- | ------------------------------------ | ----------------------------------- |
-| 1-10 | VirtualBox | Linux |
+ | Software required | 
+ | ------------------------------------ | 
+ | Kubernetes | 
+ | Backstage | 
+ | CI/CD solutions such as GitHub Actions | 
+ | Keptn | 
+ | Argo CD | 
+ | Crossplane | 
+ | Prometheus | 
+ | OpenTelemetry | 
+ | Harbor | 
+ | OpenFeature | 
+ | Renovate Bot | 
 
 
 ### Related products
-* Defending APIs [[Packt]](https://www.packtpub.com/en-in/product/defending-apis-9781804617120) [[Amazon]](https://www.amazon.com/Defending-APIs-against-Cyber-Attack/dp/1804617121)
+* Modern DevOps Practices [[Packt]](https://www.packtpub.com/en-us/product/modern-devops-practices-9781805121824?utm_source=github&utm_medium=repository&utm_campaign=) [[Amazon]](https://www.amazon.com/dp/1800562381)
 
-* Offensive Security Using Python [[Packt]](packtpub_link) [[Amazon]](https://www.amazon.com/Offensive-Security-Using-Python-Handbook/dp/1835468160)
+* Embracing DevOps Release Management [[Packt]](https://www.packtpub.com/en-us/product/embracing-devops-release-management-9781835461853?utm_source=github&utm_medium=repository&utm_campaign=) [[Amazon]](https://www.amazon.com/dp/1835461859)
 
 ## Get to Know the Author
-**Maurício Harley**
-holds an MSc in cybersecurity, a Bachelor of Science in electrical engineering, and a technologist degree in telematics. He’s CISSP and double CCIE certified.
-He has written offensive security articles for some magazines. He has 30 years of combined experience in areas such as application security and forensic analysis. He has delivered security talks at Brazilian, European, and Latin American events, such as RootDay, RootSec, AWS LATAM Security Talks, AWS Security Workshops, EMEA AeroSpace Smart Factory, and OWASP LATAM@Home.
-He has participated in various security projects in Latin America and Europe, Middle East, and Africa (EMEA), delivering professional services in Angola, Austria, Bahrain, Brazil, Finland, France, Germany, Netherlands, Spain, South Africa, and the United Kingdom.
+**Max Körbächer**
+is a technology advisor and platform architect who focuses on utilizing cloud-native technologies and open source to simplify the challenges of complex systems. He is the founder and managing director of Liquid Reply, a cloud-native engineering and consulting company. His work history includes roles as an enterprise architect in the media and power utility industry and as a demand manager planning medium and large IT projects. Max is also the founder and, currently, co-chair of the CNCF Environmental Sustainability Technical Advisory Group, CNCF Ambassador, Linux Foundation Europe Advisory Board member, and initiator and organizer of the Kubernetes Community Days Munich and Ukraine.
 
+**Andreas Grabner**
+is a technical advocate for making distributed systems observable and making automated data-driven decisions across the software development lifecycle. In his capacity as a CNCF ambassador and a DevRel at Dynatrace, he connects and educates global software engineering communities on building and continuously validating digital services for resiliency, high availability, and security.
+Since his early days, he has been passionate about software quality and performance engineering as it results in building excellent digital products. Andi uses his advocacy platforms to share best practices on topics such as observability, progressive delivery, DevOps, site reliability engineering, platform engineering, and digital business operations!
 
-
+**Hilliary Lipsig**
+is an autodidact and start-up veteran who has frequently learned and applied technologies to get a job done. She’s had her hand in every part of the application delivery process, honing her skills originally as a quality engineer. Hilliary is an IT polyglot, able to talk the lingo of both the Operations and Development teams. She’s currently a Principal Site Reliability Engineer at Red Hat Inc., working on Kubernetes-based platforms. She’s passionate about GitOps, continuous integration, scalable processes, consistency in tooling, and good developer documentation. Her open source activities include contributions to the CNCF Glossary and she’s a member of the Code of Conduct Committee for Kubernetes.
