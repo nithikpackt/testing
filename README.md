@@ -68,7 +68,7 @@ With the following software and hardware list you can run all code files present
 
 * Embracing DevOps Release Management [[Packt]](https://www.packtpub.com/en-us/product/embracing-devops-release-management-9781835461853?utm_source=github&utm_medium=repository&utm_campaign=) [[Amazon]](https://www.amazon.com/dp/1835461859)
 
-## Get to Know the Author
+## Get to Know the Authors
 **Max Körbächer**
 is a technology advisor and platform architect who focuses on utilizing cloud-native technologies and open source to simplify the challenges of complex systems. He is the founder and managing director of Liquid Reply, a cloud-native engineering and consulting company. His work history includes roles as an enterprise architect in the media and power utility industry and as a demand manager planning medium and large IT projects. Max is also the founder and, currently, co-chair of the CNCF Environmental Sustainability Technical Advisory Group, CNCF Ambassador, Linux Foundation Europe Advisory Board member, and initiator and organizer of the Kubernetes Community Days Munich and Ukraine.
 
