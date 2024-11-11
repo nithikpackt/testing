@@ -85,7 +85,7 @@ With the following software and hardware list you can run all code files present
 * Building Secure Automotive IoT Applications [[Packt]](https://www.packtpub.com/en-us/product/building-secure-automotive-iot-applications-9781835462843?utm_source=github&utm_medium=repository&utm_campaign=) [[Amazon]](https://www.amazon.com/dp/1837638039)
 * Hands-on ESP32 with Arduino IDE [[Packt]](https://www.packtpub.com/en-us/product/hands-on-esp32-with-arduino-ide-9781837637713) [[Amazon]](https://www.amazon.com/dp/1837638039)
 
-## Get to Know the Author
+## Get to Know the Authors
 **Giacomo Veneri**
 was born in Siena, Italy, in 1973. He is an expert in data processing and industrial internet of things (IIoT). Working actively as an AI and IoT manager, he is the author of several books and scientific articles. He graduated from the University of Siena with a degree in computer science in 1999 and graduated in 2014 with a PhD in neuroscience and neural computation. He has achieved more than 10 certifications in programming, AI, and the cloud. Today, Giacomo is an AI director.
 
