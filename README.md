@@ -88,7 +88,14 @@ By the end of this book, you’ll be able to adapt your appliance to the ever-ev
 
 <details open> 
   <summary><h2>Requirements for this book</summary>
-To be filled
+In order to get the most out of this book, it is assumed that the reader has some prior experience in
+Linux systems administration or experience as a user of Linux systems.
+Many of the concepts in this book are extremely advanced. The lessons in this book combined with
+your existing knowledge should catapult you to a level of mastery of not only understanding the
+internals of Linux systems but also building products based upon Linux.
+There are numerous hands-on exercises in this book to enhance the learning activities. Should you
+choose to follow along with these exercises, the author recommends having at least two PC-grade
+systems with a minimum of 16 GB of RAM and 1 TB of storage each for best results.
   </details>
     
 
@@ -96,7 +103,7 @@ To be filled
 <details> 
   <summary><h2>Get to know Authors</h2></summary>
 
-_Matt St. Onge_ Matt St. Onge, with over 30 years of technology experience,  has been a longtime advocate, engineer, and thought leader in the Linux and Open Source industry.  He's spent the past decade helping product teams design, prototype and then build more secure and resilient embedded Linux systems across North America and globally during his tenure at Red Hat.
+_Matt St. Onge_, with over 30 years of technology experience,  has been a longtime advocate, engineer, and thought leader in the Linux and Open Source industry.  He's spent the past decade helping product teams design, prototype and then build more secure and resilient embedded Linux systems across North America and globally during his tenure at Red Hat.
 Some of Matt's other career position highlights are director of presales engineering, Principal Architect, owner of a consulting company, and US Army veteran.
 Matt has been an active contributor to Open Source as well. His recent contributions can be publicly accessed freely via GitHub.
 
