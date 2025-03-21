@@ -1,58 +1,116 @@
-# TypeScript 5 Design Patterns and Best Practices
+<h1 align="center">
+The Embedded Linux Security Handbook, First Edition</h1>
+<p align="center">This is the code repository for <a href ="https://www.packtpub.com/en-us/product/the-embedded-linux-security-handbook-first-edition/9781835885642"> The Embedded Linux Security Handbook, First Edition</a>, published by Packt.
+</p>
 
-<a href="https://www.packtpub.com/en-in/product/typescript-5-design-patterns-and-best-practices-9781835883235?utm_source=github&utm_medium=repository&utm_campaign=9781786461629"><img src="https://content.packt.com/_/image/xxlarge/B22417/cover_image.jpg" alt="" height="256px" align="right"></a>
+<h2 align="center">
+Fortify your embedded Linux systems from design to deployment
+</h2>
+<p align="center">
+Matt St. Onge</p>
 
-This is the code repository for [TypeScript 5 Design Patterns and Best Practices](https://www.packtpub.com/en-in/product/typescript-5-design-patterns-and-best-practices-9781835883235?utm_source=github&utm_medium=repository&utm_campaign=9781786461629), published by Packt.
+<p align="center">
+   <a href="https://packt.link/embeddedsystems" alt="Discord" title="Learn more on the Discord server"><img width="32px" src="https://cliply.co/wp-content/uploads/2021/08/372108630_DISCORD_LOGO_400.gif"/></a>
+  &#8287;&#8287;&#8287;&#8287;&#8287;
+  <a href="https://packt.link/free-ebook/9781835885642"><img width="32px" alt="Free PDF" title="Free PDF" src="https://cdn-icons-png.flaticon.com/512/4726/4726010.png"/></a>
+ &#8287;&#8287;&#8287;&#8287;&#8287;
+  <a href="https://packt.link/gbp/9781835885642"><img width="32px" alt="Graphic Bundle" title="Graphic Bundle" src="https://cdn-icons-png.flaticon.com/512/2659/2659360.png"/></a>
+  &#8287;&#8287;&#8287;&#8287;&#8287;
+   <a href="https://www.amazon.com/dp/B0DJCDXJ27"><img width="32px" alt="Amazon" title="Get your copy" src="https://cdn-icons-png.flaticon.com/512/15466/15466027.png"/></a>
+  &#8287;&#8287;&#8287;&#8287;&#8287;
+</p>
+<details open> 
+  <summary><h2>About the book</summary>
+<a href="https://www.packtpub.com/product/unity-cookbook-fifth-edition/9781805123026">
+<img src="https://content.packt.com/B22104/cover_image_small.jpg" alt="Unity Cookbook, Fifth Edition" height="256px" align="right">
+</a>
 
-**Build clean and scalable apps with proven patterns and expert insights**
+As embedded Linux systems power countless devices in our daily lives, and they’ve become prime targets for cyberattacks. In this in-depth guide to safeguarding your Linux devices, the author leverages his 30+ years of technology experience to help you mitigate the risks associated with hardware and software vulnerabilities.
+This book introduces you to the world of embedded systems, the brains behind your everyday appliances. It takes you through the different types of embedded systems, their uses, and the platforms they run on, while addressing their unique security challenges and support considerations. You’ll learn to build a successful, secure, and user-friendly solution by exploring the critical hardware and software components that form the foundation of a secure appliance. We won't forget the human element either; you'll find out how to configure your system to prevent user errors and maintain its integrity. The book lets you put your newfound knowledge into action, guiding you through designing a robust build chain that supports the entire life cycle of your appliance solution, enabling seamless updates without your direct involvement.
+By the end of this book, you’ll be able to adapt your appliance to the ever-evolving threat landscape, ensuring its continued security and functionality in real-world conditions.</details>
+<details open> 
+  <summary><h2>Key Learnings</summary>
+<ul>
 
-## What is this book about?
-This in-depth guide helps you build robust and scalable apps, explore classic and modern GoF patterns, uncover functional and reactive paradigms for idiomatic TypeScript, and, finally, become a design pattern pro and craft clean, maintainable code.
+<li>Understand how to determine the optimal hardware platform based on design criteria</li>
 
-This book covers the following exciting features:
-* Comprehend the principles of design patterns and their role in TypeScript development
-* Explore essential design patterns, including creational, structural, and behavioral patterns with TypeScript
-* Differentiate between design patterns and design concepts and apply them effectively
-* Develop practical expertise in implementing design patterns in TypeScript projects through in-depth insights
-* Explore advanced patterns from functional and reactive programming paradigms
-* Architect scalable and robust TypeScript apps using design patterns and best practices
+<li>Recognize the importance of security by design in embedded systems</li>
 
-If you feel this book is for you, get your [copy](https://www.amazon.com/dp/1835883230) today!
+<li>Implement advanced security measures such as TPM, LUKS encryption, and secure boot processes</li>
 
-<a href="https://www.packtpub.com/?utm_source=github&utm_medium=banner&utm_campaign=GitHubBanner"><img src="https://raw.githubusercontent.com/PacktPublishing/GitHub/master/GitHub.png" 
-alt="https://www.packtpub.com/" border="5" /></a>
+<li>Discover best practices for secure life cycle management, including appliance update and upgrade mechanisms</li>
 
-## Instructions and Navigations
-All of the code is organized into folders. For example, [chapters/chapter01_Getting_Started_With_Typescript_5](https://github.com/PacktPublishing/TypeScript-5-Design-Patterns-and-Best-Practices/tree/main/chapters/chapter01_Getting_Started_With_Typescript_5)
+<li>Create a secure software supply chain efficiently</li>
 
-The code will look like the following:
-```
-function add(a: number, b: number): number {
-	return a + b
-}
-console.log(add(2, 3)) // 5
-console.log(add(2, 3)) // 5
-```
+<li>Implement childproofing by controlling access and resources on the appliance</li>
 
-**Following is what you need for this book:**
-If you're a TypeScript developer looking to learn how to apply established design patterns to solve common programming problems instead of reinventing solutions, you'll find this book useful. Prior knowledge of design patterns is not necessary—all you need is basic TypeScript knowledge to get started with this book.
+</ul>
 
-With the following software and hardware list you can run all code files present in the book (Chapter 1-11).
-### Software and Hardware List
-| Chapter | Software required | OS required |
-| -------- | ------------------------------------ | ----------------------------------- |
-| 1-11 | Node.js 18 and above | Windows, Mac OS X, and Linux (Any) |
-| 1-11 | TypeScript 5.0 and above | Windows, Mac OS X, and Linux (Any) |
-| 1-11 | A browser such as Chrome or Firefox | Windows, Mac OS X, and Linux (Any) |
+  </details>
+
+<details open> 
+  <summary><h2>Chapters</summary>
+     <img src="https://cliply.co/wp-content/uploads/2020/02/372002150_DOCUMENTS_400px.gif" alt="Unity Cookbook, Fifth Edition" height="556px" align="right">
+<ol>
+
+  <li>Welcome to the Cyber Security Landscape</li>
+
+  <li>Security Starts at the Design Table</li>
+
+  <li>Applying Design Requirements Criteria - Hardware Selection</li>
+
+  <li>Applying Design Requirements Criteria - the Operating System</li>
+
+  <li>Basic Needs in My Build Chain</li>
+
+  <li>Disk Encryption</li>
+
+  <li>The Trusted Platform Module</li>
+
+  <li>Boot, BIOS, and Firmware Security</li>
+
+  <li>Image-Based Deployments</li>
+
+  <li>Childproofing the Solution: Protection from the End-User and Their Environment</li>
+
+  <li>Knowing the Threat Landscape -Staying Informed</li>
+
+  <li>Are My Devices' Communications and Interactions Secure?</li>
+
+  <li>Applying Government Security Standards - System Hardening</li>
+
+  <li>Customer and Community Feedback Loops</li>
+
+</ol>
+
+</details>
 
 
-### Related products
-* JavaScript Design Patterns [[Packt]](https://www.packtpub.com/en-in/product/javascript-design-patterns-9781804614020?utm_source=github&utm_medium=repository&utm_campaign=) [[Amazon]](https://www.amazon.com/dp/1804612278)
+<details open> 
+  <summary><h2>Requirements for this book</summary>
+To be filled
+  </details>
+    
 
-* Full-Stack Web Development with TypeScript 5 [[Packt]](https://www.packtpub.com/en-in/product/full-stack-web-development-with-typescript-5-9781835885598?utm_source=github&utm_medium=repository&utm_campaign=) [[Amazon]](https://www.amazon.com/dp/1835885586)
 
-## Get to Know the Author
-**Theofanis Despoudis**
-lives in Ireland, where he works as a senior staff software engineer for WP Engine. He is the co-author of The React Workshop and Advanced Go Programming in 7 Days, and maintains many open source projects on GitHub.
-Theofanis works extensively with Faust.js, a Next.js framework written in TypeScript, and is actively developing a next-generation Headless WordPress toolkit leveraging TSDocs. He is also passionate about experimenting with AI technologies and exploring their applications in modern development workflows.
+<details> 
+  <summary><h2>Get to know Authors</h2></summary>
 
+_Matt St. Onge_ Matt St. Onge, with over 30 years of technology experience,  has been a longtime advocate, engineer, and thought leader in the Linux and Open Source industry.  He's spent the past decade helping product teams design, prototype and then build more secure and resilient embedded Linux systems across North America and globally during his tenure at Red Hat.
+Some of Matt's other career position highlights are director of presales engineering, Principal Architect, owner of a consulting company, and US Army veteran.
+Matt has been an active contributor to Open Source as well. His recent contributions can be publicly accessed freely via GitHub.
+
+
+
+</details>
+<details> 
+  <summary><h2>Other Related Books</h2></summary>
+<ul>
+
+  <li><a href="https://www.packtpub.com/en-us/product/embedded-linux-development-using-yocto-project-third-edition/9781804615065">Embedded Linux Development Using Yocto Project, Third Edition</a></li>
+
+  <li><a href="https://www.packtpub.com/en-us/product/linux-device-driver-development-second-edition/9781803240060">Linux Device Driver Development, Second Edition</a></li>
+ 
+</ul>
+
+</details>
